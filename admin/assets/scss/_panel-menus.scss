@@ -1,0 +1,40 @@
+#mup-panel-menus-form {
+  #mup-menu-fields-wrap {
+    display: flex;
+    flex-direction: column;
+
+    .mup-menu-fields {
+      background-color: #fff;
+      min-width: 70%;
+      margin-bottom: 10px;
+      padding: 20px 10px;
+      border: 1px solid $border-color;
+      border-radius: 5px;
+      display: inline-block;
+
+      h3 {
+        margin: 0 10px 20px;
+      }
+
+      .mup-menu-display-status {
+        margin-bottom: 20px;
+      }
+
+      .mup-input-wrap {
+        display: inline-block;
+        margin: 0 10px;
+      }
+
+      .mup-actions {
+        margin-top: 20px;
+        display: flex;
+
+        .mup-remove-menu {
+          margin: 0 10px;
+          color: $error-color;
+        }
+      }
+    }
+  }
+}
+

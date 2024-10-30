@@ -1,0 +1,37 @@
+#mup-dashboard {
+  #mup-user-details {
+    @include shadow;
+
+    header {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 60px;
+        height: 60px;
+        border: 3px solid rgba(#fff, 0.5);
+        border-radius: 100%;
+      }
+
+      span {
+        margin: 0 10px;
+      }
+    }
+
+    .mup-card-content {
+      padding: 30px;
+
+      P {
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid $border-color;
+      }
+
+      P:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border: none;
+      }
+    }
+  }
+}

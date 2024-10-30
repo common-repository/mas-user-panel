@@ -1,0 +1,253 @@
+#mup-wrap {
+  color: gray;
+}
+#mup-wrap .mup-unread {
+  background-color: #e84a66;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 10px;
+  border-radius: 100%;
+  opacity: 0.6;
+}
+#mup-wrap .mup-badge-info {
+  background-color: #43aed4;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+#mup-wrap .mup-badge-error {
+  background-color: #e84a66;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+#mup-wrap .mup-badge-success {
+  background-color: #5db472;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+#mup-wrap #mup-content-tab table {
+  background-color: #fff;
+}
+#mup-wrap #mup-content-tab table th, #mup-wrap #mup-content-tab table td {
+  padding: 30px;
+  vertical-align: middle;
+  border: 1px solid #e6e6e6;
+}
+#mup-wrap #mup-ticket-list-table {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+#mup-wrap #mup-ticket-list-table th, #mup-wrap #mup-ticket-list-table td {
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+}
+#mup-wrap #mup-ticket-list-table #mup-ticket-priority {
+  background-color: #43aed4;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+#mup-wrap #mup-ticket-list-table #mup-ticket-close {
+  background-color: #e84a66;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+#mup-wrap #mup-ticket-list-table #mup-ticket-open {
+  background-color: #5db472;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+#mup-wrap #mup-ticket-list-table .mup-unread-count {
+  background-color: #e84a66;
+  min-width: 20px;
+  min-height: 20px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 30px;
+  display: inline-block;
+}
+#mup-wrap #mup-ticket {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 30px;
+  border: 1px solid #e6e6e6;
+  margin-top: 10px;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+#mup-wrap #mup-ticket header > div {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+#mup-wrap #mup-ticket header > div h3 {
+  margin: 0 10px;
+}
+#mup-wrap #mup-ticket header img {
+  border: 5px solid #e6e6e6;
+  border-radius: 100%;
+}
+#mup-wrap .mup-ticket {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 30px;
+  border: 1px solid #e6e6e6;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+#mup-wrap .mup-ticket header > div {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+#mup-wrap .mup-ticket header > div h3 {
+  margin: 0 10px;
+}
+#mup-wrap .mup-ticket header img {
+  border: 5px solid #e6e6e6;
+  border-radius: 100%;
+}
+#mup-wrap .mup-ticket-user-reply {
+  background-color: #e5f4f9;
+}
+#mup-wrap #mup-reply-form {
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+#mup-wrap #mup-reply-form textarea {
+  width: 100%;
+  min-height: 200px;
+  border-color: #d9d9d9;
+}
+#mup-wrap #mup-panel-menus-form #mup-menu-fields-wrap {
+  display: flex;
+  flex-direction: column;
+}
+#mup-wrap #mup-panel-menus-form #mup-menu-fields-wrap .mup-menu-fields {
+  background-color: #fff;
+  min-width: 70%;
+  margin-bottom: 10px;
+  padding: 20px 10px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  display: inline-block;
+}
+#mup-wrap #mup-panel-menus-form #mup-menu-fields-wrap .mup-menu-fields h3 {
+  margin: 0 10px 20px;
+}
+#mup-wrap #mup-panel-menus-form #mup-menu-fields-wrap .mup-menu-fields .mup-menu-display-status {
+  margin-bottom: 20px;
+}
+#mup-wrap #mup-panel-menus-form #mup-menu-fields-wrap .mup-menu-fields .mup-input-wrap {
+  display: inline-block;
+  margin: 0 10px;
+}
+#mup-wrap #mup-panel-menus-form #mup-menu-fields-wrap .mup-menu-fields .mup-actions {
+  margin-top: 20px;
+  display: flex;
+}
+#mup-wrap #mup-panel-menus-form #mup-menu-fields-wrap .mup-menu-fields .mup-actions .mup-remove-menu {
+  margin: 0 10px;
+  color: #e84a66;
+}
+#mup-wrap #mup-register-fields {
+  display: flex;
+}
+#mup-wrap #mup-register-fields a {
+  text-decoration: none;
+}
+#mup-wrap #mup-register-fields #mup-buttons-wrap {
+  min-width: 200px;
+  max-width: 300px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 -2px;
+}
+#mup-wrap #mup-register-fields #mup-buttons-wrap div {
+  width: 50%;
+  padding: 0 2px 4px;
+  float: right;
+  box-sizing: border-box;
+}
+#mup-wrap #mup-register-fields #mup-buttons-wrap div button {
+  width: 100%;
+}
+#mup-wrap #mup-register-fields #mup-reg-fields-form {
+  width: 100%;
+  margin-right: 20px;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+#mup-wrap #mup-register-fields #mup-reg-fields-form #mup-reg-fields-wrap label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+#mup-wrap #mup-register-fields #mup-reg-fields-form #mup-reg-fields-wrap input:not([type=checkbox]) {
+  display: block;
+}
+#mup-wrap #mup-register-fields #mup-reg-fields-form #mup-reg-fields-wrap input[type=checkbox] {
+  vertical-align: middle;
+}
+#mup-wrap #mup-register-fields #mup-reg-fields-form .mup-field-wrap {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+#mup-wrap #mup-register-fields #mup-reg-fields-form .mup-field-wrap .mup-field-settings {
+  display: none;
+}
+#mup-wrap #mup-register-fields #mup-reg-fields-form .mup-field-wrap .mup-field-actions {
+  display: flex;
+}
+#mup-wrap #mup-register-fields #mup-reg-fields-form .mup-field-wrap .mup-field-actions a {
+  margin: 0 5px;
+}
+#mup-wrap #mup-register-fields #mup-reg-fields-form .mup-field-wrap .mup-field-actions .mup-delete-field {
+  color: #e84a66;
+}
+#mup-wrap .mup-info {
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+#mup-wrap .mup-info h2 {
+  margin: 0 0 20px;
+}
+#mup-wrap .mup-info table {
+  border-collapse: collapse;
+}
+#mup-wrap .mup-info table td {
+  padding: 15px;
+  border: 1px solid #e6e6e6;
+}
+#mup-wrap .mup-info table td strong {
+  font-weight: bold;
+}
+#mup-wrap a {
+  text-decoration: none;
+}
+#mup-wrap h1 {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */

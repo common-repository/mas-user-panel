@@ -1,0 +1,562 @@
+.mup-unread {
+  background-color: #e84a66;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 10px;
+  border-radius: 100%;
+}
+
+.mup-card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.mup-card header {
+  padding: 10px 20px;
+  background-color: #213065;
+  color: rgba(255, 255, 255, 0.9);
+}
+.mup-card header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+}
+.mup-card .mup-card-content {
+  padding: 20px;
+}
+.mup-card footer {
+  padding: 10px 15px;
+  font-size: 14px;
+  display: flex;
+  border-top: 1px solid #e6e6e6;
+}
+.mup-card footer span {
+  margin: 0 5px;
+}
+
+.mup-badge-error {
+  background-color: #e84a66;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.mup-badge-info {
+  background-color: #43aed4;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.mup-badge-success {
+  background-color: #5db472;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.mup-badge-warning {
+  background-color: #e8d84a;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #666666;
+  border-radius: 3px;
+}
+
+.mup-msg {
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.mup-msg h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+.mup-msg ul {
+  margin: 0;
+  padding: 0 30px;
+}
+.mup-msg p {
+  margin: 0;
+}
+
+.mup-info-msg {
+  background-color: #43aed4;
+  color: #fff;
+}
+
+.mup-error-msg {
+  background-color: #e84a66;
+  color: #fff;
+}
+
+.mup-success-msg {
+  background-color: #5db472;
+  color: #fff;
+}
+
+#mup-user-panel form,
+#mup-register-form,
+#mup-login-form,
+#mup-lost-password-form,
+#mup-reset-password-form {
+  font-size: 16px;
+}
+#mup-user-panel form p,
+#mup-register-form p,
+#mup-login-form p,
+#mup-lost-password-form p,
+#mup-reset-password-form p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+#mup-user-panel form input:not([type=submit], [type=checkbox]), #mup-user-panel form select, #mup-user-panel form textarea,
+#mup-register-form input:not([type=submit], [type=checkbox]),
+#mup-register-form select,
+#mup-register-form textarea,
+#mup-login-form input:not([type=submit], [type=checkbox]),
+#mup-login-form select,
+#mup-login-form textarea,
+#mup-lost-password-form input:not([type=submit], [type=checkbox]),
+#mup-lost-password-form select,
+#mup-lost-password-form textarea,
+#mup-reset-password-form input:not([type=submit], [type=checkbox]),
+#mup-reset-password-form select,
+#mup-reset-password-form textarea {
+  min-width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+}
+#mup-user-panel form .mup-input-info,
+#mup-register-form .mup-input-info,
+#mup-login-form .mup-input-info,
+#mup-lost-password-form .mup-input-info,
+#mup-reset-password-form .mup-input-info {
+  margin-top: 5px;
+  font-size: 14px;
+  color: gray;
+  display: block;
+}
+#mup-user-panel form input[type=checkbox],
+#mup-register-form input[type=checkbox],
+#mup-login-form input[type=checkbox],
+#mup-lost-password-form input[type=checkbox],
+#mup-reset-password-form input[type=checkbox] {
+  vertical-align: middle;
+}
+#mup-user-panel form input[type=submit],
+#mup-register-form input[type=submit],
+#mup-login-form input[type=submit],
+#mup-lost-password-form input[type=submit],
+#mup-reset-password-form input[type=submit] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #43aed4;
+  height: 34px;
+  padding: 0 15px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  line-height: 1.5em;
+}
+#mup-user-panel form input[type=submit]:hover,
+#mup-register-form input[type=submit]:hover,
+#mup-login-form input[type=submit]:hover,
+#mup-lost-password-form input[type=submit]:hover,
+#mup-reset-password-form input[type=submit]:hover {
+  background-color: #2fa5ce;
+}
+
+#mup-register-form,
+#mup-login-form,
+#mup-lost-password-form,
+#mup-reset-password-form {
+  background-color: #fff;
+}
+
+#mup-register-form #mup-password-strength {
+  display: none;
+}
+#mup-register-form .mup-pass-bad,
+#mup-register-form .mup-pass-mismatch,
+#mup-register-form .mup-pass-short,
+#mup-register-form .mup-pass-good,
+#mup-register-form .mup-pass-strong {
+  padding: 5px 20px;
+  border-radius: 5px;
+  display: inline-block !important;
+}
+#mup-register-form .mup-pass-bad,
+#mup-register-form .mup-pass-mismatch {
+  background-color: #e84a66;
+  color: #fff;
+}
+#mup-register-form .mup-pass-short {
+  background-color: #e84a66;
+  color: #fff;
+}
+#mup-register-form .mup-pass-good {
+  background-color: #e8d84a;
+  color: #666666;
+}
+#mup-register-form .mup-pass-strong {
+  background-color: #5db472;
+  color: #fff;
+}
+#mup-register-form input[type=submit]:disabled {
+  background-color: #213065;
+  color: #666666;
+  cursor: not-allowed;
+}
+#mup-register-form input[type=submit]:disabled:hover {
+  background-color: #213065;
+}
+
+#mup-register-form,
+#mup-login-form,
+#mup-lost-password-form,
+#mup-reset-password-form {
+  background-color: #fff;
+  max-width: 600px;
+  padding: 30px;
+  color: #666666;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+#mup-register-form a,
+#mup-login-form a,
+#mup-lost-password-form a,
+#mup-reset-password-form a {
+  text-decoration: none;
+  color: #43aed4;
+}
+#mup-register-form a:hover,
+#mup-login-form a:hover,
+#mup-lost-password-form a:hover,
+#mup-reset-password-form a:hover {
+  color: #298db1;
+}
+#mup-register-form input:not([type=checkbox], [type=submit]),
+#mup-login-form input:not([type=checkbox], [type=submit]),
+#mup-lost-password-form input:not([type=checkbox], [type=submit]),
+#mup-reset-password-form input:not([type=checkbox], [type=submit]) {
+  width: 100%;
+}
+#mup-register-form input[type=submit],
+#mup-login-form input[type=submit],
+#mup-lost-password-form input[type=submit],
+#mup-reset-password-form input[type=submit] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #43aed4;
+  height: 34px;
+  padding: 0 15px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  min-width: 100px;
+  height: 40px;
+}
+#mup-register-form input[type=submit]:hover,
+#mup-login-form input[type=submit]:hover,
+#mup-lost-password-form input[type=submit]:hover,
+#mup-reset-password-form input[type=submit]:hover {
+  background-color: #2fa5ce;
+}
+#mup-register-form #mup-form-links,
+#mup-login-form #mup-form-links,
+#mup-lost-password-form #mup-form-links,
+#mup-reset-password-form #mup-form-links {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+#mup-dashboard #mup-user-details {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+#mup-dashboard #mup-user-details header {
+  display: flex;
+  align-items: center;
+}
+#mup-dashboard #mup-user-details header img {
+  width: 60px;
+  height: 60px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+}
+#mup-dashboard #mup-user-details header span {
+  margin: 0 10px;
+}
+#mup-dashboard #mup-user-details .mup-card-content {
+  padding: 30px;
+}
+#mup-dashboard #mup-user-details .mup-card-content P {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e6e6e6;
+}
+#mup-dashboard #mup-user-details .mup-card-content P:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+#mup-user-edit #mup-pro-pic {
+  margin-bottom: 20px;
+}
+#mup-user-edit #mup-pro-pic > div {
+  margin: 0 -10px 10px;
+  display: flex;
+  align-items: center;
+}
+#mup-user-edit #mup-pro-pic > div img {
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+  object-fit: cover;
+  border: 5px solid #e6e6e6;
+  border-radius: 100%;
+}
+#mup-user-edit #mup-pro-pic > div label[for=mup-upload-pro-pic], #mup-user-edit #mup-pro-pic > div a {
+  margin: 0 5px;
+  font-size: 14px;
+}
+#mup-user-edit #mup-pro-pic > div label[for=mup-upload-pro-pic] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #43aed4;
+  height: 34px;
+  padding: 0 15px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#mup-user-edit #mup-pro-pic > div label[for=mup-upload-pro-pic]:hover {
+  background-color: #2fa5ce;
+}
+#mup-user-edit #mup-pro-pic > div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e84a66;
+  height: 34px;
+  padding: 0 15px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+#mup-user-edit #mup-pro-pic > div a:hover {
+  background-color: #e53353;
+}
+#mup-user-edit #mup-pro-pic > div #mup-pro-pic-name {
+  width: 100%;
+}
+
+#mup-notifications .mup-card-content p:first-child {
+  margin-top: 0;
+}
+#mup-notifications .mup-card-content p:last-child {
+  margin-bottom: 0;
+}
+
+#mup-comments article header {
+  font-size: 14px;
+}
+#mup-comments article header span {
+  font-weight: bold;
+}
+#mup-comments article .mup-card-content p {
+  margin-top: 0;
+}
+#mup-comments article .mup-card-content .mup-comment-post {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#mup-new-ticket label[for=mup-ticket-priority] {
+  margin-bottom: 5px;
+  display: block;
+}
+
+#mup-ticket-list article header {
+  margin: 0 -5px;
+}
+#mup-ticket-list article header span {
+  font-size: 14px;
+  margin: 0 5px;
+}
+#mup-ticket-list article header span #mup-ticket-open {
+  background-color: #5db472;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+#mup-ticket-list article header span #mup-ticket-closed {
+  background-color: #e84a66;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+#mup-ticket-list article header #mup-ticket-priority strong {
+  background-color: #43aed4;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+}
+#mup-ticket-list article .mup-card-content h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#mup-single-ticket #mup-ticket header > div {
+  margin: 0 -10px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+#mup-single-ticket #mup-ticket header > div img {
+  width: 60px;
+  height: 60px;
+  margin: 0 10px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+}
+#mup-single-ticket #mup-ticket header > div span {
+  margin: 0 5px;
+}
+#mup-single-ticket #mup-ticket .mup-card-content h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+#mup-single-ticket #mup-ticket .mup-card-content p:last-child {
+  margin-bottom: 0;
+}
+#mup-single-ticket #mup-ticket-replies > h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+#mup-single-ticket #mup-ticket-replies .mup-reply-ticket header > div {
+  margin: 0 -5px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+#mup-single-ticket #mup-ticket-replies .mup-reply-ticket header > div img {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+}
+#mup-single-ticket #mup-ticket-replies .mup-reply-ticket header > div span {
+  margin: 0 5px;
+}
+#mup-single-ticket #mup-ticket-replies .mup-reply-ticket .mup-card-content p:first-child {
+  margin-top: 0;
+}
+#mup-single-ticket #mup-ticket-replies .mup-reply-ticket .mup-card-content p:last-child {
+  margin-bottom: 0;
+}
+#mup-single-ticket #mup-ticket-replies .mup-ticket-admin-reply header {
+  background-color: #43aed4;
+}
+
+#mup-user-panel {
+  min-height: 700px;
+  display: flex;
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.5em;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#mup-user-panel a {
+  text-decoration: none;
+  color: #43aed4;
+}
+#mup-user-panel a:hover {
+  color: #298db1;
+}
+#mup-user-panel #mup-sidebar {
+  background-color: #213065;
+  min-width: 230px;
+  overflow: hidden;
+}
+#mup-user-panel #mup-sidebar #mup-top-sidebar {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+#mup-user-panel #mup-sidebar #mup-top-sidebar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+}
+#mup-user-panel #mup-sidebar #mup-top-sidebar span {
+  margin: 5px 0 0;
+}
+#mup-user-panel #mup-sidebar #mup-nav {
+  margin: 20px 0;
+}
+#mup-user-panel #mup-sidebar #mup-nav a {
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+#mup-user-panel #mup-sidebar #mup-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.9);
+}
+#mup-user-panel #mup-sidebar #mup-nav a span:not(.mup-unread-count) {
+  margin: 0 12px;
+}
+#mup-user-panel #mup-sidebar #mup-nav a .mup-unread-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e84a66;
+  min-width: 20px;
+  height: 20px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 30px;
+}
+#mup-user-panel #mup-sidebar #mup-nav #mup-logout:hover {
+  background-color: #e84a66;
+}
+#mup-user-panel #mup-sidebar #mup-nav .mup-active {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.9);
+}
+#mup-user-panel #mup-content {
+  background-color: #f1f1f1;
+  width: 100%;
+  padding: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */

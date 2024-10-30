@@ -1,0 +1,38 @@
+#mup-user-edit {
+  #mup-pro-pic {
+    margin-bottom: 20px;
+
+    & > div {
+      margin: 0 -10px 10px;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 70px;
+        height: 70px;
+        margin: 0 10px;
+        object-fit: cover;
+        border: 5px solid $border-color;
+        border-radius: 100%;
+      }
+
+      label[for=mup-upload-pro-pic], a {
+        margin: 0 5px;
+        font-size: 14px;
+      }
+
+      label[for=mup-upload-pro-pic] {
+        @include btn($color-2);
+        cursor: pointer;
+      }
+
+      a {
+        @include btn($error-color);
+      }
+
+      #mup-pro-pic-name {
+        width: 100%;
+      }
+    }
+  }
+}

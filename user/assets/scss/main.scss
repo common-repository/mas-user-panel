@@ -1,0 +1,100 @@
+@import "colors";
+@import "mixins";
+@import "classes";
+@import "messages";
+@import "form";
+@import "auth";
+@import "panel/dashboard";
+@import "panel/user-edit";
+@import "panel/notifications";
+@import "panel/comments";
+@import "panel/new-ticket";
+@import "panel/ticket-list";
+@import "panel/single-ticket";
+
+#mup-user-panel {
+  min-height: 700px;
+  display: flex;
+  color: $text-color;
+  font-size: 16px;
+  line-height: 1.5em;
+  border-radius: 5px;
+  overflow: hidden;
+
+  a {
+    text-decoration: none;
+    color: $color-2;
+
+    &:hover {
+      color: darken($color-2, 12%);
+    }
+  }
+
+  #mup-sidebar {
+    background-color: $color-1;
+    min-width: 230px;
+    overflow: hidden;
+
+    #mup-top-sidebar {
+      background-color: rgba(#fff, 0.05);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: rgba(#fff, 0.9);
+
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        border: 3px solid rgba(#fff, 0.5);
+      }
+
+      span {
+        margin: 5px 0 0;
+      }
+    }
+
+    #mup-nav {
+      margin: 20px 0;
+
+      a {
+        padding: 12px 20px;
+        display: flex;
+        align-items: center;
+        color: rgba(#fff, 0.6);
+
+        &:hover {
+          background-color: rgba(#fff, 0.05);
+          color: rgba(#fff, 0.9);
+        }
+
+        span:not(.mup-unread-count) {
+          margin: 0 12px;
+        }
+
+        .mup-unread-count {
+          @include flex-center;
+          @include unread-count;
+        }
+      }
+
+      #mup-logout:hover {
+        background-color: $error-color;
+      }
+
+      .mup-active {
+        background-color: rgba(#fff, 0.05);
+        color: rgba(#fff, 0.9);
+      }
+    }
+  }
+
+  #mup-content {
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 30px;
+  }
+}
+

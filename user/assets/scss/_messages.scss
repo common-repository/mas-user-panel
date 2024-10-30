@@ -1,0 +1,35 @@
+.mup-msg {
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+
+  h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0 30px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.mup-info-msg {
+  background-color: $color-2;
+  color: #fff;
+}
+
+.mup-error-msg {
+  background-color: $error-color;
+  color: #fff;
+}
+
+.mup-success-msg {
+  background-color: $success-color;
+  color: #fff;
+}

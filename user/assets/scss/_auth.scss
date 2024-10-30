@@ -1,0 +1,35 @@
+#mup-register-form,
+#mup-login-form,
+#mup-lost-password-form,
+#mup-reset-password-form {
+  background-color: #fff;
+  max-width: 600px;
+  padding: 30px;
+  color: $text-color;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+
+  a {
+    text-decoration: none;
+    color: $color-2;
+
+    &:hover {
+      color: darken($color-2, 12%);
+    }
+  }
+
+  input:not([type=checkbox], [type=submit]) {
+    width: 100%;
+  }
+
+  input[type=submit] {
+    @include btn($color-2);
+    min-width: 100px;
+    height: 40px;
+  }
+
+  #mup-form-links {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+}

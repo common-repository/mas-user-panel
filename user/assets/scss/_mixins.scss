@@ -1,0 +1,40 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin btn($bg-color) {
+  @include flex-center;
+  background-color: $bg-color;
+  height: 34px;
+  padding: 0 15px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+
+  &:hover {
+    background-color: darken($bg-color, 5%);
+  }
+}
+
+@mixin unread-count {
+  background-color: $error-color;
+  min-width: 20px;
+  height: 20px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+@mixin badge($bg-color, $color) {
+  background-color: $bg-color;
+  padding: 3px 5px;
+  font-size: 13px;
+  color: $color;
+  border-radius: 3px;
+}
+
+@mixin shadow {
+  box-shadow: 0 0 20px rgba(#000, 0.1);
+}

@@ -1,0 +1,82 @@
+#mup-single-ticket {
+  #mup-ticket {
+    header {
+      & > div {
+        margin: 0 -10px;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+
+        img {
+          width: 60px;
+          height: 60px;
+          margin: 0 10px;
+          border: 3px solid rgba(#fff, 0.5);
+          border-radius: 100%;
+        }
+
+        span {
+          margin: 0 5px;
+        }
+      }
+    }
+
+    .mup-card-content {
+      h3 {
+        margin: 0 0 10px;
+        font-size: 18px;
+      }
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  #mup-ticket-replies {
+    & > h2 {
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+
+    .mup-reply-ticket {
+      header {
+        & > div {
+          margin: 0 -5px;
+          display: flex;
+          align-items: center;
+          font-size: 14px;
+
+          img {
+            width: 50px;
+            height: 50px;
+            margin: 0 5px;
+            border: 3px solid rgba(#fff, 0.5);
+            border-radius: 100%;
+          }
+
+          span {
+            margin: 0 5px;
+          }
+        }
+      }
+
+      .mup-card-content {
+        p:first-child {
+          margin-top: 0;
+        }
+
+        p:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .mup-ticket-admin-reply {
+      header {
+        background-color: $color-2;
+      }
+    }
+  }
+}
+

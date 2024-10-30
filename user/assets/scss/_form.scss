@@ -1,0 +1,91 @@
+#mup-user-panel form,
+#mup-register-form,
+#mup-login-form,
+#mup-lost-password-form,
+#mup-reset-password-form {
+  font-size: 16px;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  input:not([type=submit], [type=checkbox]), select, textarea {
+    min-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid $input-border-color;
+    border-radius: 5px;
+  }
+
+  .mup-input-info {
+    margin-top: 5px;
+    font-size: 14px;
+    color: lighten($text-color, 10%);
+    display: block;
+  }
+
+  input[type=checkbox] {
+    vertical-align: middle;
+  }
+
+  input[type=submit] {
+    @include btn($color-2);
+    line-height: 1.5em;
+  }
+}
+
+#mup-register-form,
+#mup-login-form,
+#mup-lost-password-form,
+#mup-reset-password-form {
+  background-color: #fff;
+}
+
+#mup-register-form {
+  #mup-password-strength {
+    display: none;
+  }
+
+  .mup-pass-bad,
+  .mup-pass-mismatch,
+  .mup-pass-short,
+  .mup-pass-good,
+  .mup-pass-strong {
+    padding: 5px 20px;
+    border-radius: 5px;
+    display: inline-block !important;
+  }
+
+  .mup-pass-bad,
+  .mup-pass-mismatch {
+    background-color: $error-color;
+    color: #fff;
+  }
+
+  .mup-pass-short {
+    background-color: $error-color;
+    color: #fff;
+  }
+
+  .mup-pass-good {
+    background-color: $warning-color;
+    color: $text-color;
+  }
+
+  .mup-pass-strong {
+    background-color: $success-color;
+    color: #fff;
+  }
+
+  input[type=submit]:disabled {
+    background-color: $color-1;
+    color: $text-color;
+    cursor: not-allowed;
+  }
+
+  input[type=submit]:disabled:hover {
+    background-color: $color-1;
+  }
+}
+

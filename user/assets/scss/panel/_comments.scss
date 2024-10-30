@@ -1,0 +1,22 @@
+#mup-comments {
+  article {
+    header {
+      font-size: 14px;
+
+      span {
+        font-weight: bold;
+      }
+    }
+
+    .mup-card-content {
+      p {
+        margin-top: 0;
+      }
+
+      .mup-comment-post {
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.mup-unread {
+  background-color: $error-color;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 10px;
+  border-radius: 100%;
+}
+
+.mup-card {
+  @include shadow;
+  background-color: #fff;
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+
+  header {
+    padding: 10px 20px;
+    background-color: $color-1;
+    color: rgba(#fff, 0.9);
+
+    h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: bold;
+      color: rgba(#fff, 0.9);
+    }
+  }
+
+  .mup-card-content {
+    padding: 20px;
+  }
+
+  footer {
+    padding: 10px 15px;
+    font-size: 14px;
+    display: flex;
+    border-top: 1px solid $border-color;
+
+    span {
+      margin: 0 5px;
+    }
+  }
+}
+
+.mup-badge-error {
+  @include badge($error-color, #fff)
+}
+
+.mup-badge-info {
+  @include badge($color-2, #fff)
+}
+
+.mup-badge-success {
+  @include badge($success-color, #fff)
+}
+
+.mup-badge-warning {
+  @include badge($warning-color, $text-color)
+}

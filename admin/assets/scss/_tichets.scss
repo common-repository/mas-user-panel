@@ -1,0 +1,60 @@
+#mup-ticket-list-table {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+
+  th, td {
+    padding: 10px;
+    border: 1px solid $border-color;
+  }
+
+  #mup-ticket-priority {
+    @include badge($color-2, #fff);
+  }
+
+  #mup-ticket-close {
+    @include badge($error-color, #fff);
+  }
+
+  #mup-ticket-open {
+    @include badge($success-color, #fff);
+  }
+
+  .mup-unread-count {
+    @include unread-count;
+    display: inline-block;
+  }
+}
+
+#mup-ticket {
+  @include ticket;
+  margin-top: 10px;
+  position: relative;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+}
+
+.mup-ticket {
+  @include ticket;
+  position: relative;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+}
+
+.mup-ticket-user-reply {
+  background-color: $color-3;
+}
+
+#mup-reply-form {
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+
+  textarea {
+    width: 100%;
+    min-height: 200px;
+    border-color: $input-border-color;
+  }
+}

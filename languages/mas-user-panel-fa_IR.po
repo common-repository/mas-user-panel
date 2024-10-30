@@ -1,0 +1,1300 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mas User Panel\n"
+"POT-Creation-Date: 2021-06-20 12:35+0430\n"
+"PO-Revision-Date: 2021-06-20 12:37+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: mas-user-panel.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/pages/form-handler/general.php:4 admin/pages/form-handler/login.php:4
+#: admin/pages/form-handler/panel.php:4
+#: admin/pages/form-handler/register-form-builder.php:8
+#: admin/pages/form-handler/register.php:4 admin/pages/single-ticket.php:63
+#: includes/classes/MUPShortCode.php:115 user/login-form.php:5
+#: user/login-form.php:27 user/login-form.php:32
+#: user/panel-sections/single-ticket.php:31
+#: user/panel-sections/user-edit.php:27 user/register-form-handler.php:8
+msgid "Invalid Request."
+msgstr "درخواست نامعتبر است."
+
+#: admin/pages/form-handler/general.php:25
+#: admin/pages/form-handler/login.php:27 admin/pages/form-handler/panel.php:21
+#: admin/pages/form-handler/register.php:21 admin/pages/panel-menus.php:118
+#: admin/pages/register-form-builder.php:20
+msgid "Settings Changed."
+msgstr "تغییرات انجام شد."
+
+#: admin/pages/form-handler/register-form-builder.php:33
+msgid "error in editing firstname."
+msgstr "خطا در ویرایش نام."
+
+#: admin/pages/form-handler/register-form-builder.php:39
+msgid "error in creating firstname."
+msgstr "خطا در ایجاد نام."
+
+#: admin/pages/form-handler/register-form-builder.php:46
+msgid "error in deleting firstname."
+msgstr "خطا در حذف نام."
+
+#: admin/pages/form-handler/register-form-builder.php:71
+msgid "error in editing lastname."
+msgstr "خطا در ویرایش نام خانوادگی."
+
+#: admin/pages/form-handler/register-form-builder.php:77
+msgid "error in creating lastname."
+msgstr "خطا در ایجاد نام خانوادگی."
+
+#: admin/pages/form-handler/register-form-builder.php:84
+msgid "error in deleting lastname."
+msgstr "خطا در حذف نام خانوادگی."
+
+#: admin/pages/form-handler/register-form-builder.php:109
+msgid "error in editing display name."
+msgstr "خطا در ویرایش نام نمایشی."
+
+#: admin/pages/form-handler/register-form-builder.php:115
+msgid "error in creating display name."
+msgstr "خطا در ایجاد  نام نمایشی."
+
+#: admin/pages/form-handler/register-form-builder.php:122
+msgid "error in deleting display name."
+msgstr "خطا در حذف نام نمایشی."
+
+#: admin/pages/form-handler/register-form-builder.php:146
+msgid "error in editing username."
+msgstr "خطا در ویرایش نام کاربری."
+
+#: admin/pages/form-handler/register-form-builder.php:152
+msgid "error in creating username."
+msgstr "خطا در ایجاد نام کاربری."
+
+#: admin/pages/form-handler/register-form-builder.php:159
+msgid "error in deleting username."
+msgstr "خطا در حذف نام کاربری."
+
+#: admin/pages/form-handler/register-form-builder.php:182
+msgid "error in editing user email."
+msgstr "خطا در ویرایش ایمیل."
+
+#: admin/pages/form-handler/register-form-builder.php:188
+msgid "error in creating user email."
+msgstr "خطا در ایجاد ایمیل."
+
+#: admin/pages/form-handler/register-form-builder.php:195
+msgid "error in deleting user email."
+msgstr "خطا در حذف ایمیل."
+
+#: admin/pages/form-handler/register-form-builder.php:220
+msgid "error in editing password."
+msgstr "خطا در ویرایش رمز عبور."
+
+#: admin/pages/form-handler/register-form-builder.php:226
+msgid "error in creating password."
+msgstr "خطا در ایجاد رمز عبور."
+
+#: admin/pages/form-handler/register-form-builder.php:233
+msgid "error in deleting password."
+msgstr "خطا در حذف رمز عبور."
+
+#: admin/pages/form-handler/register-form-builder.php:257
+msgid "error in editing website."
+msgstr "خطا در ویرایش وب سایت."
+
+#: admin/pages/form-handler/register-form-builder.php:263
+msgid "error in creating website."
+msgstr "خطا در ایجاد وب سایت."
+
+#: admin/pages/form-handler/register-form-builder.php:270
+msgid "error in deleting website."
+msgstr "خطا در حذف وب سایت."
+
+#: admin/pages/info.php:2
+msgid "Plugin Information"
+msgstr "راهنمای افزونه"
+
+#: admin/pages/info.php:4
+msgid "Plugin Shortcodes"
+msgstr "شورت کد های افزونه"
+
+#: admin/pages/info.php:10
+msgid "User Panel Shortcode"
+msgstr "کد کوتاه پنل کاربری"
+
+#: admin/pages/info.php:18
+msgid "Login Form Shortcode"
+msgstr "کد کوتاه فرم ورود"
+
+#: admin/pages/info.php:26
+msgid "Register Form Shortcode"
+msgstr "کد کوتاه فرم ثبت نام"
+
+#: admin/pages/info.php:34
+msgid "Lost Password Form Shortcode"
+msgstr "کد کوتاه فرم بازیابی رمز عبور"
+
+#: admin/pages/info.php:42
+msgid "Reset Password Form Shortcode"
+msgstr "کد کوتاه تجدید رمز عبور"
+
+#: admin/pages/panel-menus.php:107 includes/classes/MUPAdminMenu.php:62
+#: includes/classes/MUPAdminMenu.php:63
+msgid "Panel Menus"
+msgstr "منو های پنل"
+
+#: admin/pages/panel-menus.php:128
+msgid ""
+"You can add a custom menu to display in the user panel menus. You can also "
+"change the display status and title of the default menus."
+msgstr ""
+"شما می توانید منو سفارشی اضافه کنید تا در پنل کاربری نمایش داده شود. همچنین "
+"میتوانید وضعیت نمایش منو ها و عنوان منو های پیشفرض را تغییر دهید."
+
+#: admin/pages/panel-menus.php:131
+msgid ""
+"To display custom menus in the user panel, the menu title and content should "
+"not be empty."
+msgstr ""
+"برای نمایش منو سفارشی در پنل کاربری، عنوان و محتوای منو نباید خالی باشد."
+
+#: admin/pages/panel-menus.php:136
+msgid "You can use dashicon classes as menu icon in "
+msgstr "شما می توانید از کلاس های dashicon به عنوان ایکن منو در"
+
+#: admin/pages/panel-menus.php:140
+msgid "this address "
+msgstr "این آدرس"
+
+#: admin/pages/panel-menus.php:144
+msgid ""
+"(eg: dashicons dashicons-menu) Also, if your theme uses font awesome icons, "
+"you can use fontawesome css classes (eg: far fa-user)"
+msgstr ""
+"استفاده کنید. برای مثال: dashicons dashicons-menu همچنین در صورتی که قالب "
+"شما از fontawsome استفاده میکند، میتوانید از کلاس های آن استفاده کنید. برای "
+"مثال: far fa-user"
+
+#: admin/pages/panel-menus.php:156 includes/options.php:73
+msgid "Dashboard"
+msgstr "داشبورد"
+
+#: admin/pages/panel-menus.php:159 admin/pages/panel-menus.php:180
+#: admin/pages/panel-menus.php:206 admin/pages/panel-menus.php:232
+#: admin/pages/panel-menus.php:258 admin/pages/panel-menus.php:284
+#: admin/pages/panel-menus.php:310 admin/pages/panel-menus.php:336
+#: admin/pages/panel-menus.php:360 includes/functions.php:264
+msgid "Menu Order"
+msgstr "اولویت نمایش"
+
+#: admin/pages/panel-menus.php:164 admin/pages/panel-menus.php:185
+#: admin/pages/panel-menus.php:211 admin/pages/panel-menus.php:237
+#: admin/pages/panel-menus.php:263 admin/pages/panel-menus.php:289
+#: admin/pages/panel-menus.php:315 admin/pages/panel-menus.php:341
+#: admin/pages/panel-menus.php:365 includes/functions.php:269
+msgid "Icon Classes"
+msgstr "کلاس آیکن"
+
+#: admin/pages/panel-menus.php:169 admin/pages/panel-menus.php:195
+#: admin/pages/panel-menus.php:221 admin/pages/panel-menus.php:247
+#: admin/pages/panel-menus.php:273 admin/pages/panel-menus.php:299
+#: admin/pages/panel-menus.php:325 admin/pages/panel-menus.php:346
+#: admin/pages/panel-menus.php:399 admin/pages/ticket-list.php:44
+#: includes/functions.php:293
+msgid "Title"
+msgstr "عنوان"
+
+#: admin/pages/panel-menus.php:170 admin/pages/panel-menus.php:196
+#: admin/pages/panel-menus.php:222 admin/pages/panel-menus.php:248
+#: admin/pages/panel-menus.php:274 admin/pages/panel-menus.php:300
+#: admin/pages/panel-menus.php:326 admin/pages/panel-menus.php:347
+#: admin/pages/panel-menus.php:400
+msgid "Title Menu"
+msgstr "عنوان منو"
+
+#: admin/pages/panel-menus.php:177 includes/options.php:78
+msgid "Home Page"
+msgstr ""
+
+#: admin/pages/panel-menus.php:191 admin/pages/panel-menus.php:217
+#: admin/pages/panel-menus.php:243 admin/pages/panel-menus.php:269
+#: admin/pages/panel-menus.php:295 admin/pages/panel-menus.php:321
+#: admin/pages/panel-menus.php:372 includes/functions.php:275
+msgid "Show in panel"
+msgstr "نمایش در پنل"
+
+#: admin/pages/panel-menus.php:203 includes/options.php:83
+#: user/panel-sections/user-edit.php:240
+msgid "Edit Profile"
+msgstr "ویرایش مشخصات"
+
+#: admin/pages/panel-menus.php:229 includes/classes/MUPAdminMenu.php:33
+#: includes/classes/MUPAdminMenu.php:34 includes/classes/MUPPostType.php:13
+#: includes/classes/MUPPostType.php:15 includes/classes/MUPPostType.php:22
+#: includes/options.php:88
+msgid "Notifications"
+msgstr "اعلانات"
+
+#: admin/pages/panel-menus.php:255 includes/options.php:93
+msgid "Comments"
+msgstr "نظرات"
+
+#: admin/pages/panel-menus.php:281 includes/options.php:98
+msgid "New Ticket"
+msgstr "ارسال تیکت"
+
+#: admin/pages/panel-menus.php:307 admin/pages/ticket-list.php:37
+#: includes/classes/MUPAdminMenu.php:44 includes/classes/MUPAdminMenu.php:45
+#: includes/options.php:103
+msgid "Tickets"
+msgstr "تیکت ها"
+
+#: admin/pages/panel-menus.php:333 includes/options.php:107
+msgid "Logout"
+msgstr "خروج"
+
+#: admin/pages/panel-menus.php:356 includes/functions.php:260
+msgid "Custom Menu"
+msgstr "منو سفارشی"
+
+#: admin/pages/panel-menus.php:376 includes/functions.php:279
+msgid "Hide in panel"
+msgstr "عدم نمایش در پنل"
+
+#: admin/pages/panel-menus.php:385
+msgid "Select content type"
+msgstr "انتخاب نوع محتوا"
+
+#: admin/pages/panel-menus.php:389 includes/functions.php:287
+msgid "Link to other page"
+msgstr "پیوند به صفحه دیگر"
+
+#: admin/pages/panel-menus.php:393 admin/pages/panel-menus.php:403
+#: includes/classes/MUPAdminMenu.php:115 includes/functions.php:288
+#: includes/functions.php:297
+msgid "Shortcode"
+msgstr "کد کوتاه"
+
+#: admin/pages/panel-menus.php:407 admin/pages/ticket-list.php:158
+#: includes/register-setting-html-fields.php:24
+#: includes/register-setting-html-fields.php:96
+#: includes/register-setting-html-fields.php:170
+#: includes/register-setting-html-fields.php:430
+msgid "Delete"
+msgstr "حذف"
+
+#: admin/pages/panel-menus.php:417
+msgid "Add New Menu"
+msgstr "افزودن منو جدید"
+
+#: admin/pages/panel-menus.php:418 admin/pages/register-form-builder.php:132
+#: admin/pages/setting-forms/general.php:127
+#: admin/pages/setting-forms/login.php:148
+#: admin/pages/setting-forms/panel.php:120
+#: admin/pages/setting-forms/register.php:172
+msgid "Save Settings"
+msgstr "ذخیره تغییرات"
+
+#: admin/pages/register-form-builder.php:4 includes/classes/MUPAdminMenu.php:53
+#: includes/classes/MUPAdminMenu.php:54
+msgid "Register Fields"
+msgstr "فیلدهای ثبت نام"
+
+#: admin/pages/register-form-builder.php:30
+msgid "The three fields of username, email and password are required."
+msgstr "سه فیلد نام کاربری، ایمیل و رمز عبور الزامی می باشند."
+
+#: admin/pages/register-form-builder.php:40 includes/functions.php:92
+#: includes/register-field-settings.php:4 user/panel-sections/user-edit.php:155
+msgid "Firstname"
+msgstr "نام"
+
+#: admin/pages/register-form-builder.php:46
+#: includes/register-field-settings.php:15
+#: user/panel-sections/user-edit.php:171
+msgid "Lastname"
+msgstr "نام خانوادگی"
+
+#: admin/pages/register-form-builder.php:52
+#: user/panel-sections/user-edit.php:187
+msgid "Display Name"
+msgstr "نام نمایشی"
+
+#: admin/pages/register-form-builder.php:59
+#: includes/register-field-settings.php:37
+#: user/panel-sections/user-edit.php:211
+msgid "Username"
+msgstr "نام کاربری"
+
+#: admin/pages/register-form-builder.php:67 admin/pages/ticket-list.php:52
+#: includes/functions.php:111 includes/register-field-settings.php:47
+#: user/lost-password-form.php:20 user/panel-sections/user-edit.php:203
+msgid "Email"
+msgstr "ایمیل"
+
+#: admin/pages/register-form-builder.php:75 includes/functions.php:129
+#: includes/register-field-settings.php:56 user/login-form.php:59
+msgid "Password"
+msgstr "رمز عبور"
+
+#: admin/pages/register-form-builder.php:82
+#: includes/register-field-settings.php:67
+#: user/panel-sections/user-edit.php:231
+msgid "Website"
+msgstr "وب سایت"
+
+#: admin/pages/setting-forms/general.php:10
+msgid "Panel page"
+msgstr "صفحه پنل کاربری"
+
+#: admin/pages/setting-forms/general.php:20
+#: admin/pages/setting-forms/general.php:48
+#: admin/pages/setting-forms/register.php:20
+msgid "None"
+msgstr "هیچکدام"
+
+#: admin/pages/setting-forms/general.php:24
+#: admin/pages/setting-forms/general.php:52
+#: admin/pages/setting-forms/login.php:24
+#: admin/pages/setting-forms/login.php:68
+#: admin/pages/setting-forms/login.php:102
+#: admin/pages/setting-forms/login.php:133
+#: admin/pages/setting-forms/register.php:24
+msgid "Untitled"
+msgstr "بدون عنوان"
+
+#: admin/pages/setting-forms/general.php:32
+#: admin/pages/setting-forms/general.php:60
+#: admin/pages/setting-forms/login.php:32
+#: admin/pages/setting-forms/login.php:76
+#: admin/pages/setting-forms/login.php:110
+#: admin/pages/setting-forms/login.php:141
+#: admin/pages/setting-forms/register.php:32
+msgid "There is no page."
+msgstr "برگه ای وجود ندارد."
+
+#: admin/pages/setting-forms/general.php:40
+msgid "Lost password page"
+msgstr "صفحه فراموشی رمز عبور"
+
+#: admin/pages/setting-forms/general.php:68
+msgid "Disable admin bar"
+msgstr "غیر فعال کردن نوار ادمین"
+
+#: admin/pages/setting-forms/general.php:80
+msgid "Disable wp admin for users"
+msgstr "غیر فعال کردن پیشخوان وردپرس برای کاربر"
+
+#: admin/pages/setting-forms/general.php:92
+msgid "Disable panel styles"
+msgstr "غیر فعال کردن استایل پنل"
+
+#: admin/pages/setting-forms/general.php:104
+msgid "Disable register styles"
+msgstr "غیر فعال کردن استایل فرم ثبت نام"
+
+#: admin/pages/setting-forms/general.php:116
+msgid "Disable login styles"
+msgstr "غیر فعال کردن استایل فرم ورود"
+
+#: admin/pages/setting-forms/login.php:10
+msgid "Login page"
+msgstr "صفحه ورود"
+
+#: admin/pages/setting-forms/login.php:20
+#: admin/pages/setting-forms/login.php:64
+#: admin/pages/setting-forms/login.php:98
+#: admin/pages/setting-forms/login.php:129
+msgid "Default"
+msgstr "پیشفرض"
+
+#: admin/pages/setting-forms/login.php:35
+msgid ""
+"If you select the \"Redirect default login\" option, users will be "
+"redirected to this page, so make sure you have this page and the plugin "
+"login shortcode in it."
+msgstr ""
+"اگر گزینه \"ریدایرکت ورود پیشفرض به ورود افزونه\" را انتخاب کنید، کاربران به "
+"ای صفحه منتقل خواهند شد. بنابراین از وجود این صفحه و کد کوتاه ورود افزونهدر "
+"آن مطمئن شوید."
+
+#: admin/pages/setting-forms/login.php:43
+msgid "\"Redirect default login to plugin login"
+msgstr "ریدایرک ورود پیشفرض به ورود افزونه"
+
+#: admin/pages/setting-forms/login.php:56
+msgid "After login page"
+msgstr "صفحه بعد از ورود"
+
+#: admin/pages/setting-forms/login.php:80
+msgid ""
+"This option is related to logging in through the plugin login form and for "
+"non-administrator users."
+msgstr ""
+"این گزینه مربوط به ورود از طریق صفحه ورود افزونه و کاربران غیر مدیرکل می باشد"
+
+#: admin/pages/setting-forms/login.php:88
+msgid "Reset password page"
+msgstr "صفحه تجدید رمز عبور"
+
+#: admin/pages/setting-forms/login.php:113
+msgid ""
+"Proper selection of this page and login page can be required for the correct "
+"password recovery actions of the plugin."
+msgstr ""
+"انتخاب صحیح این برگه و برگه ورود، برای عملیات بازیابی رمز عبور افزونه الزامی "
+"می باشد."
+
+#: admin/pages/setting-forms/login.php:120
+msgid "After logout page"
+msgstr "صفحه بعد از خروج"
+
+#: admin/pages/setting-forms/panel.php:9
+msgid "Show top panel section"
+msgstr "نمایش قسمت بالای پنل"
+
+#: admin/pages/setting-forms/panel.php:19
+msgid "Enable upload avatar"
+msgstr "فعالسازی آپلود آواتار"
+
+#: admin/pages/setting-forms/panel.php:29
+msgid "Avatar image size in kilobytes"
+msgstr "حداکثر حجم آواتار به کیلوبایت"
+
+#: admin/pages/setting-forms/panel.php:39
+msgid "Notifications per page"
+msgstr "تعداد اعلانات مدیر در هر صفحه"
+
+#: admin/pages/setting-forms/panel.php:49
+msgid "Comments per page"
+msgstr "تعداد نظرات در هر صفحه"
+
+#: admin/pages/setting-forms/panel.php:59
+msgid "Tickets per page"
+msgstr "تعداد تیکت ها در هر صفحه"
+
+#: admin/pages/setting-forms/panel.php:69
+msgid "Ticket replies per page"
+msgstr "تعداد پاسخ های تیکت در هر صفحه"
+
+#: admin/pages/setting-forms/panel.php:79
+msgid "Ticket notification email subject"
+msgstr "عنوان ایمیل اطلاع رسانی تیکت به کاربر"
+
+#: admin/pages/setting-forms/panel.php:89
+msgid "Ticket notification email text"
+msgstr "متن ایمیل اطلاع رسانی تیکت به کاربر"
+
+#: admin/pages/setting-forms/panel.php:110
+#: admin/pages/setting-forms/register.php:111
+#: admin/pages/setting-forms/register.php:157
+msgid "Codes that can be used in the text of the email: "
+msgstr "کدهای قابل استفاده در متن ایمیل:"
+
+#: admin/pages/setting-forms/register.php:10
+msgid "Register page"
+msgstr "صفحه ثبت نام"
+
+#: admin/pages/setting-forms/register.php:35
+msgid ""
+"If you select the \"Redirect default register\" option, users will be "
+"redirected to this page."
+msgstr ""
+"اگر گزینه \"ریدایرکت ثبت نام پیشفرض\" را انتخاب کنید، کاربران به این صفحه "
+"منتقل میشوند."
+
+#: admin/pages/setting-forms/register.php:43
+msgid "Redirect default register"
+msgstr "ریدایرکت ثبت نام پیشفرض"
+
+#: admin/pages/setting-forms/register.php:56
+msgid "Enable password strength"
+msgstr "فعالسازی قدرت سنج رمز عبور"
+
+#: admin/pages/setting-forms/register.php:68
+msgid "Require user to activate account by email"
+msgstr "الزام کاربر به فعالسازی ایمیل حساب کاربری"
+
+#: admin/pages/setting-forms/register.php:79
+msgid "Registration notification email subject"
+msgstr "عنوان ایمیل اطلاع رسانی ثبت نام به کاربر"
+
+#: admin/pages/setting-forms/register.php:89
+msgid "Registration notification email text"
+msgstr "متن ایمیل اطلاع رسانی ثبت نام به کاربر"
+
+#: admin/pages/setting-forms/register.php:125
+msgid "Account activation email subject"
+msgstr "عنوان ایمیل فعالسازی حساب"
+
+#: admin/pages/setting-forms/register.php:135
+msgid "Account activation email text"
+msgstr "متن ایمیل فعالسازی حساب"
+
+#: admin/pages/settings.php:13 includes/classes/MUPAdminMenu.php:24
+#: includes/classes/MUPAdminMenu.php:25
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: admin/pages/settings.php:30
+msgid "General"
+msgstr "عمومی"
+
+#: admin/pages/settings.php:34 includes/functions.php:46 user/login-form.php:70
+msgid "Login"
+msgstr "ورود"
+
+#: admin/pages/settings.php:38 includes/functions.php:31 user/login-form.php:88
+msgid "Register"
+msgstr "ثبت نام"
+
+#: admin/pages/settings.php:42 includes/functions.php:16
+msgid "User Panel"
+msgstr "پنل کاربری"
+
+#: admin/pages/single-ticket.php:15 admin/pages/ticket-list.php:9
+msgid "Ticket Closed."
+msgstr "تیکت بسته شد."
+
+#: admin/pages/single-ticket.php:24
+msgid "Ticket Reopened."
+msgstr "تیکت مجدداً باز شد."
+
+#: admin/pages/single-ticket.php:39 user/panel-sections/single-ticket.php:14
+msgid "Reply must not be empty."
+msgstr "پاسخ نباید خالی باشد."
+
+#: admin/pages/single-ticket.php:50
+msgid "Reply sent."
+msgstr "پاسخ ارسال شد."
+
+#: admin/pages/single-ticket.php:70
+msgid "Creator: "
+msgstr "ارسال کننده:"
+
+#: admin/pages/single-ticket.php:94
+msgid "Close Ticket"
+msgstr "بستن تیکت"
+
+#: admin/pages/single-ticket.php:100
+msgid "Reopen Ticket"
+msgstr "باز کردن مجدد تیکت"
+
+#: admin/pages/single-ticket.php:109
+msgid "Delete Ticket"
+msgstr "حذف تیکت"
+
+#: admin/pages/single-ticket.php:116 admin/pages/single-ticket.php:188
+#: admin/pages/ticket-list.php:132 user/panel-sections/comments.php:43
+#: user/panel-sections/single-ticket.php:91
+#: user/panel-sections/single-ticket.php:140
+#, php-format
+msgid "Date: %s at %s"
+msgstr "تاریخ %s در %s"
+
+#: admin/pages/single-ticket.php:123 user/panel-sections/single-ticket.php:68
+#: user/panel-sections/ticket-list.php:40
+msgid "Priority: "
+msgstr "اولویت:"
+
+#: admin/pages/single-ticket.php:126 admin/pages/ticket-list.php:110
+#: user/panel-sections/new-ticket.php:56
+#: user/panel-sections/single-ticket.php:73
+#: user/panel-sections/ticket-list.php:45
+msgid "Low"
+msgstr "پایین"
+
+#: admin/pages/single-ticket.php:128 admin/pages/ticket-list.php:112
+#: user/panel-sections/new-ticket.php:57
+#: user/panel-sections/single-ticket.php:75
+#: user/panel-sections/ticket-list.php:47
+msgid "Normal"
+msgstr "متوسط"
+
+#: admin/pages/single-ticket.php:130 admin/pages/ticket-list.php:114
+#: user/panel-sections/new-ticket.php:58
+#: user/panel-sections/single-ticket.php:77
+#: user/panel-sections/ticket-list.php:49
+msgid "High"
+msgstr "بالا"
+
+#: admin/pages/single-ticket.php:137 user/panel-sections/single-ticket.php:54
+#: user/panel-sections/ticket-list.php:26
+msgid "Status: "
+msgstr "وضعیت:"
+
+#: admin/pages/single-ticket.php:140 admin/pages/ticket-list.php:125
+#: user/panel-sections/single-ticket.php:59
+#: user/panel-sections/ticket-list.php:31
+msgid "Closed"
+msgstr "بسته"
+
+#: admin/pages/single-ticket.php:142 admin/pages/ticket-list.php:127
+#: user/panel-sections/single-ticket.php:61
+#: user/panel-sections/ticket-list.php:33
+msgid "Open"
+msgstr "باز"
+
+#: admin/pages/single-ticket.php:161
+msgid "Subject: "
+msgstr "عنوان:"
+
+#: admin/pages/single-ticket.php:229 user/panel-sections/new-ticket.php:76
+#: user/panel-sections/single-ticket.php:176
+msgid "Your Message"
+msgstr "پیام شما"
+
+#: admin/pages/single-ticket.php:233 user/panel-sections/single-ticket.php:180
+msgid "Send Reply"
+msgstr "ارسال پاسخ"
+
+#: admin/pages/ticket-list.php:21
+msgid "Ticket Reopened"
+msgstr "تیکت مجدداً باز شد."
+
+#: admin/pages/ticket-list.php:48
+msgid "Creator"
+msgstr "ارسال کننده"
+
+#: admin/pages/ticket-list.php:56 user/panel-sections/new-ticket.php:53
+msgid "Priority"
+msgstr "اولیوت"
+
+#: admin/pages/ticket-list.php:60
+msgid "Status"
+msgstr "وضعیت"
+
+#: admin/pages/ticket-list.php:64
+msgid "Date"
+msgstr "تاریخ"
+
+#: admin/pages/ticket-list.php:68
+msgid "Actions"
+msgstr "عملیات"
+
+#: admin/pages/ticket-list.php:142
+msgid "Close"
+msgstr "بستن"
+
+#: admin/pages/ticket-list.php:148
+msgid "Reopen"
+msgstr "باز کردن"
+
+#: admin/pages/ticket-list.php:165 user/panel-sections/ticket-list.php:71
+msgid "There is no ticket."
+msgstr "تیکتی وجود ندارد."
+
+#: includes/classes/MUPAdminMenu.php:14 includes/classes/MUPAdminMenu.php:15
+msgid "Mas Panel"
+msgstr "مس پنل"
+
+#: includes/classes/MUPAdminMenu.php:71 includes/classes/MUPAdminMenu.php:72
+msgid "Plugin Info"
+msgstr "راهنمای افزونه"
+
+#: includes/classes/MUPAdminMenu.php:114
+msgid "eg: https://google.com"
+msgstr "مثال: https://google.com"
+
+#: includes/classes/MUPAuth.php:151
+msgid "Hello!"
+msgstr "سلام!"
+
+#: includes/classes/MUPAuth.php:152
+#, php-format
+msgid ""
+"You asked us to reset your password for your account using the email address "
+"%s."
+msgstr ""
+"شما درخواست بازیابی رمز عبور برای حساب کاربری با این ایمیل %s داده اید."
+
+#: includes/classes/MUPAuth.php:153
+msgid ""
+"If this was a mistake, or you didn't ask for a password reset, just ignore "
+"this email and nothing will happen."
+msgstr "اگر اشتباهی رخ داده، این ایمیل را نادیده بگیرید و اتفاقی نخواهد افتاد."
+
+#: includes/classes/MUPAuth.php:154
+msgid "To reset your password, visit the following address:"
+msgstr "برای بازیابی رمز عبور از ادرس زیر دیدن کنید:"
+
+#: includes/classes/MUPAuth.php:156
+msgid "Thanks!"
+msgstr "تشکر از شما."
+
+#: includes/classes/MUPPostType.php:14 includes/classes/MUPPostType.php:16
+msgid "Notice"
+msgstr "اطلاعیه"
+
+#: includes/classes/MUPPostType.php:17
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: includes/classes/MUPPostType.php:18
+msgid "Add Notice New"
+msgstr "افزودن اطلاعیه جدید"
+
+#: includes/classes/MUPPostType.php:19
+msgid "New Notice"
+msgstr "اطلاعیه جدید"
+
+#: includes/classes/MUPPostType.php:20
+msgid "Edit Notice"
+msgstr "ویرایش اطلاعیه"
+
+#: includes/classes/MUPPostType.php:21
+msgid "Display Notice"
+msgstr "نمایش اطلاعیه"
+
+#: includes/classes/MUPPostType.php:23
+msgid "Search Notifications"
+msgstr "جستجوی اطلاعیه"
+
+#: includes/classes/MUPPostType.php:24
+msgid "Parent Notifications:"
+msgstr "اطلاعیه های والد"
+
+#: includes/classes/MUPPostType.php:25
+msgid "Not found notice."
+msgstr "اطلاعیه ای یافت نشد."
+
+#: includes/classes/MUPPostType.php:26
+msgid "Not found notice in trash."
+msgstr "اطلاعیه در زباله یافت نشد."
+
+#: includes/classes/MUPPostType.php:27
+msgid "Notice image"
+msgstr "تصویر اطلاعیه"
+
+#: includes/classes/MUPPostType.php:28
+msgid "Adjust notice image"
+msgstr "تنظیم تصویر اطلاعیه"
+
+#: includes/classes/MUPPostType.php:29
+msgid "Delete notice image"
+msgstr "حذف تصویر اطلاعیه"
+
+#: includes/classes/MUPPostType.php:30
+msgid "Use as notice image"
+msgstr "استفاده به عنوان تصویر اطلاعیه"
+
+#: includes/classes/MUPPostType.php:31
+msgid "Notifications archives"
+msgstr "آرشیو اطلاعیه ها"
+
+#: includes/classes/MUPPostType.php:32
+msgid "Insert into Notice"
+msgstr "درج در اطلاعیه"
+
+#: includes/classes/MUPPostType.php:33
+msgid "Upload into notice"
+msgstr "آپلود در این  اطلاعیه"
+
+#: includes/classes/MUPPostType.php:34
+msgid "Filter Notifications list"
+msgstr "فیلتر لیست اطلاعیه ها"
+
+#: includes/classes/MUPPostType.php:35
+msgid "Notifications list navigation"
+msgstr "لیست ناوبری اطلاعیه ها"
+
+#: includes/classes/MUPPostType.php:36
+msgid "Notifications List"
+msgstr "لیست اطلاعیه ها"
+
+#: includes/classes/MUPShortCode.php:40 includes/classes/MUPShortCode.php:118
+msgid "Log in to your account."
+msgstr "لطفاً وارد حساب خود شوید."
+
+#: includes/classes/MUPShortCode.php:63
+msgid "The registration form is not ready."
+msgstr "فرم ثبت نام آماده نیست."
+
+#: includes/classes/MUPShortCode.php:68 includes/classes/MUPShortCode.php:86
+#: includes/classes/MUPShortCode.php:100
+msgid "You are logged in to your account."
+msgstr "شما وارد حساب خود شده اید."
+
+#: includes/functions.php:61
+#, fuzzy
+#| msgid "Reset Password"
+msgid "Lost Password"
+msgstr "تجدید رمز عبور"
+
+#: includes/functions.php:76 user/reset-password-form.php:34
+msgid "Reset Password"
+msgstr "تجدید رمز عبور"
+
+#: includes/functions.php:130
+msgid "Confirm Pasword"
+msgstr "تأیید رمز عبور"
+
+#: includes/functions.php:286
+msgid "Content Type"
+msgstr "نوع محتوا"
+
+#: includes/functions.php:294
+msgid "Menu Title"
+msgstr "عنوان منو"
+
+#: includes/functions.php:301
+msgid "Delete Menu"
+msgstr "حذف منو"
+
+#: includes/functions.php:321
+msgid "Image format is not allowed."
+msgstr "پسوند تصویر غیر مجاز است."
+
+#: includes/functions.php:323
+#, php-format
+msgid "Maximum avatar image size is %d KB."
+msgstr "حداکثر حجم تصویر آواتار %d کیلو بایت میباشد."
+
+#: includes/functions.php:341
+msgid "There is a problem uploading avatar."
+msgstr "مشکلی در آپلود تصویر آواتار ایجاد شده."
+
+#: includes/functions.php:440 user/panel-sections/user-edit.php:108
+msgid "Fix the following errors:"
+msgstr "خطاهای زیر را برطرف کنید:"
+
+#: includes/options.php:18
+msgid "New user with this email:"
+msgstr "کاربر جدید با این ایمیل:"
+
+#: includes/options.php:20
+msgid "registered on your site."
+msgstr "در سایت شما ثبت نام کرد."
+
+#: includes/options.php:23
+msgid "Click on the account activation link below."
+msgstr "روی لینک فعالسازی حساب در پایین کلیک کنید."
+
+#: includes/options.php:30
+msgid "New user registration"
+msgstr "ثبت نام کاربر جدید"
+
+#: includes/options.php:33
+msgid "Account Activation"
+msgstr "فعالسازی حساب"
+
+#: includes/options.php:53
+msgid "Your ticket as \"[ticket_title]\" was answered on [site_name]."
+msgstr "تیکت شما با عنوان [ticket_title] در سایت [site_name] پاسخ داده شد."
+
+#: includes/options.php:63 user/panel-sections/new-ticket.php:49
+msgid "Subject"
+msgstr "عنوان"
+
+#: includes/register-field-settings.php:26
+msgid "Display name"
+msgstr "نام نمایشی"
+
+#: includes/register-field-settings.php:57
+#: user/panel-sections/user-edit.php:227
+msgid "Confirm Password"
+msgstr "تأیید رمز عبور"
+
+#: includes/register-setting-html-fields.php:20
+#: includes/register-setting-html-fields.php:92
+#: includes/register-setting-html-fields.php:166
+#: includes/register-setting-html-fields.php:240
+#: includes/register-setting-html-fields.php:302
+#: includes/register-setting-html-fields.php:356
+#: includes/register-setting-html-fields.php:426
+msgid "Options"
+msgstr "تنظیمات"
+
+#: includes/register-setting-html-fields.php:28
+#: includes/register-setting-html-fields.php:100
+#: includes/register-setting-html-fields.php:174
+#: includes/register-setting-html-fields.php:244
+#: includes/register-setting-html-fields.php:306
+#: includes/register-setting-html-fields.php:360
+#: includes/register-setting-html-fields.php:434
+msgid "Go Up"
+msgstr "بالا بردن"
+
+#: includes/register-setting-html-fields.php:32
+#: includes/register-setting-html-fields.php:104
+#: includes/register-setting-html-fields.php:178
+#: includes/register-setting-html-fields.php:248
+#: includes/register-setting-html-fields.php:310
+#: includes/register-setting-html-fields.php:364
+#: includes/register-setting-html-fields.php:438
+msgid "Go Down"
+msgstr "پایین بردن"
+
+#: includes/register-setting-html-fields.php:39
+#: includes/register-setting-html-fields.php:111
+#: includes/register-setting-html-fields.php:185
+#: includes/register-setting-html-fields.php:255
+#: includes/register-setting-html-fields.php:317
+#: includes/register-setting-html-fields.php:371
+#: includes/register-setting-html-fields.php:445
+msgid "Placeholder"
+msgstr "متن نگهدارنده"
+
+#: includes/register-setting-html-fields.php:49
+#: includes/register-setting-html-fields.php:121
+#: includes/register-setting-html-fields.php:195
+#: includes/register-setting-html-fields.php:455
+#: user/panel-sections/user-edit.php:160 user/panel-sections/user-edit.php:176
+#: user/panel-sections/user-edit.php:192 user/panel-sections/user-edit.php:235
+msgid "Required"
+msgstr "الزامی"
+
+#: includes/register-setting-html-fields.php:55
+#: includes/register-setting-html-fields.php:127
+#: includes/register-setting-html-fields.php:201
+#: includes/register-setting-html-fields.php:263
+#: includes/register-setting-html-fields.php:395
+msgid "Minimum Letter"
+msgstr "حداکثر حروف"
+
+#: includes/register-setting-html-fields.php:63
+#: includes/register-setting-html-fields.php:135
+#: includes/register-setting-html-fields.php:209
+#: includes/register-setting-html-fields.php:271
+#: includes/register-setting-html-fields.php:325
+#: includes/register-setting-html-fields.php:387
+#: includes/register-setting-html-fields.php:461
+msgid "Field Info"
+msgstr "توضیحات"
+
+#: includes/register-setting-html-fields.php:379
+msgid "Confirm password placeholder"
+msgstr "متن نگهدارنده تأیید رمز عبور"
+
+#: user/login-form.php:7 user/register-form-handler.php:57
+msgid "Username must not be empty."
+msgstr "نام کاربری نباید خالی باشد."
+
+#: user/login-form.php:9 user/register-form-handler.php:93
+#: user/reset-password-form.php:4
+msgid "Password must not be empty."
+msgstr "رمز عبور نباید خالی باشد."
+
+#: user/login-form.php:11
+msgid "Your account is not active."
+msgstr "حساب شما فعال نیست."
+
+#: user/login-form.php:13
+msgid "Sorry, there is a problem logging in."
+msgstr "متأسفانه مشکلی در ورود بوجود آمده."
+
+#: user/login-form.php:25
+msgid "Your account has been activated. You caد log in now."
+msgstr "حساب شما با موفقیت فعال شد. اکنون وارد شوید."
+
+#: user/login-form.php:36
+msgid ""
+"Password recovery link has been sent to your email. Please check your email "
+"and click on the link."
+msgstr ""
+"لینک بازیابی رمز عبور به ایمیل شما فرستاده شد. ایمیل خود را بررسی و روی لینک "
+"کلیک کنید."
+
+#: user/login-form.php:40 user/reset-password-form.php:17
+msgid "Password recovery link has expired."
+msgstr "لینک بازیابی رمز عبو منقضی شده."
+
+#: user/login-form.php:44
+msgid "Password changed successfully. You can log in now."
+msgstr "رمز عبور با موفقیت تغییر کرد."
+
+#: user/login-form.php:55
+msgid "Username or email"
+msgstr "نام کاربری یا ایمیل"
+
+#: user/login-form.php:66
+msgid "Remember"
+msgstr "یاداوری"
+
+#: user/login-form.php:102
+msgid "I forgot password"
+msgstr "رمز عبور را فراموش کردم"
+
+#: user/lost-password-form.php:4 user/register-form-handler.php:75
+msgid "Email must not be empty."
+msgstr "ایمیل نباید خالی باشد."
+
+#: user/lost-password-form.php:8 user/register-form-handler.php:79
+msgid "Invalid Email"
+msgstr "ایمیل معتبر نیست."
+
+#: user/lost-password-form.php:12
+msgid "User has not registered with this email."
+msgstr "کاربری با این ایمیل ثبت نام نکرده است."
+
+#: user/lost-password-form.php:17
+msgid ""
+"A password recovery link has been sent to your email. Please check your "
+"email."
+msgstr ""
+"لیک بازیابی رمز عبور به ایمیل شما فرستاده شد. لطفاً ایمیل خود را بررسی کنید."
+
+#: user/lost-password-form.php:24
+msgid "Recovery Password"
+msgstr "بازیابی رمز عبور"
+
+#: user/panel-sections/comments.php:22
+msgid "Approved"
+msgstr "تأیید شده"
+
+#: user/panel-sections/comments.php:24
+msgid "Unapproved"
+msgstr "در انتظار تأیید"
+
+#: user/panel-sections/comments.php:36
+msgid "For: "
+msgstr "برای: "
+
+#: user/panel-sections/comments.php:60
+msgid "There is no comment."
+msgstr "دیدگاهی وجود ندارد."
+
+#: user/panel-sections/dashboard.php:14 user/user-panel.php:25
+msgid " "
+msgstr ""
+
+#: user/panel-sections/dashboard.php:25
+msgid "First Name: "
+msgstr "نام: "
+
+#: user/panel-sections/dashboard.php:32
+msgid "Last Name: "
+msgstr "نام خانوادگی: "
+
+#: user/panel-sections/dashboard.php:38
+msgid "User Name: "
+msgstr "نام کاربری: "
+
+#: user/panel-sections/dashboard.php:43
+msgid "Display Name: "
+msgstr "نام نمایشی "
+
+#: user/panel-sections/dashboard.php:48
+msgid "Email: "
+msgstr "ایمیل:"
+
+#: user/panel-sections/dashboard.php:53
+msgid "Registered Date: "
+msgstr "تاریخ ثبت نام:"
+
+#: user/panel-sections/dashboard.php:61
+#, php-format
+msgid "There is %d notice(s) from admin."
+msgstr "%d اطلاعیه از طرف مدیریت وجود دارد."
+
+#: user/panel-sections/dashboard.php:65
+#, php-format
+msgid "There is %d reply (or replies) from admin."
+msgstr "%d پاسخ برای تیک(های) شما وجود دارد."
+
+#: user/panel-sections/new-ticket.php:7
+msgid "Title must not be empty."
+msgstr "عنوان نباید خالی باشد."
+
+#: user/panel-sections/new-ticket.php:11
+msgid "Message must not be empty."
+msgstr "پیام نباید خالی باشد."
+
+#: user/panel-sections/new-ticket.php:27
+msgid "Ticket created. To view the ticket, go to the \"Tickets\" section."
+msgstr "تیکت ایجاد شد. برای دیدن تیکت خود، قسمت \"تیکت ها\" مشاهده کنید."
+
+#: user/panel-sections/new-ticket.php:80
+msgid "Send Message"
+msgstr "ارسال پیام"
+
+#: user/panel-sections/notifications.php:34
+msgid "By "
+msgstr "توسط "
+
+#: user/panel-sections/notifications.php:38
+msgid "Date: "
+msgstr "تاریخ: "
+
+#: user/panel-sections/notifications.php:49
+msgid "There is no notice."
+msgstr "اطلاعیه ای وجود ندارد."
+
+#: user/panel-sections/single-ticket.php:27
+msgid "Reply Sent."
+msgstr "پاسخ ارسال شد."
+
+#: user/panel-sections/single-ticket.php:110
+msgid "Replies"
+msgstr "پاسخ ها"
+
+#: user/panel-sections/ticket-list.php:64
+#, php-format
+msgid "Date: %s"
+msgstr "تاریخ: %s"
+
+#: user/panel-sections/user-edit.php:39 user/register-form-handler.php:15
+msgid "Firstname must not be empty."
+msgstr "نام نباید خالی باشد."
+
+#: user/panel-sections/user-edit.php:43 user/register-form-handler.php:19
+#, php-format
+msgid "Minimum firstname letters must be %d"
+msgstr "حداقل حروف نام باید %d باشد."
+
+#: user/panel-sections/user-edit.php:47 user/register-form-handler.php:29
+msgid "Lastname must not be empty."
+msgstr "نام خانوادگی نباید خالی باشد."
+
+#: user/panel-sections/user-edit.php:51 user/register-form-handler.php:33
+#, php-format
+msgid "Minimum lastname letters must be %d"
+msgstr "حداقل حروف نام خانوادگی باید %d باشد."
+
+#: user/panel-sections/user-edit.php:55 user/register-form-handler.php:43
+msgid "Display name must not be empty."
+msgstr "نام نمایشی نباید خالی باشد."
+
+#: user/panel-sections/user-edit.php:59 user/register-form-handler.php:47
+#, php-format
+msgid "Minimum display name letters must be %d"
+msgstr "حداقل حروف نام نمایشی باید %d باشد."
+
+#: user/panel-sections/user-edit.php:64 user/register-form-handler.php:97
+#: user/reset-password-form.php:8
+msgid "Two passwords do not match."
+msgstr "دو رمز عبور مطابقت ندارند."
+
+#: user/panel-sections/user-edit.php:68 user/register-form-handler.php:101
+#: user/reset-password-form.php:13
+#, php-format
+msgid "Minimum password letters must be %d"
+msgstr "حداقل حروف رمز عبور %d می باشد."
+
+#: user/panel-sections/user-edit.php:77 user/register-form-handler.php:111
+msgid "Website must not be empty."
+msgstr "وب سایت نباید خالی باشد."
+
+#: user/panel-sections/user-edit.php:94
+msgid "There is a problem editing the profile."
+msgstr "مشکلی در ویرایش مشخصات بوجود آمده."
+
+#: user/panel-sections/user-edit.php:96
+msgid "Changes applied successfully."
+msgstr "تغییرات با موفقیت انجام شد."
+
+#: user/panel-sections/user-edit.php:133
+msgid "Upload Avatar"
+msgstr "آپلود آواتار"
+
+#: user/panel-sections/user-edit.php:140
+msgid ""
+"Are you sure you want to delete the avatar? If removed, gravatar is used."
+msgstr ""
+"آیا از حذف تصویر آواتار مطمئن هستید؟ اگر تصویر حذف شود از گراواتار استفاده "
+"میشود."
+
+#: user/panel-sections/user-edit.php:141
+msgid "Delete Avatar"
+msgstr "حذف آواتار"
+
+#: user/panel-sections/user-edit.php:149
+#, php-format
+msgid ""
+"If the avatar is not uploaded, the gravatar is used. Maximum size is %d KB. "
+"Allowed extensions: jpj, jpeg and png"
+msgstr ""
+"اگر آواتار اپلود نشده باشد، از گراواتار استفاده میشود. حداقل حجم تصویر "
+"آواتار %d می باشد. پسوندهای مجاز: jpj - jpeg - png"
+
+#: user/panel-sections/user-edit.php:163 user/panel-sections/user-edit.php:179
+#: user/panel-sections/user-edit.php:195
+#, php-format
+msgid "and minimum letters %d"
+msgstr "و حداقل حروف %d"
+
+#: user/panel-sections/user-edit.php:206
+msgid "Email cannot be changed."
+msgstr "ایمیل قابل تغییر نیست."
+
+#: user/panel-sections/user-edit.php:214
+msgid "Username cannot be changed."
+msgstr "نام کاربری قابل تغییر نیست."
+
+#: user/panel-sections/user-edit.php:219
+msgid "New Password"
+msgstr "رمز جدید"
+
+#: user/panel-sections/user-edit.php:222
+#, php-format
+msgid ""
+"At least %d letters. For more security, use a combination of letters and "
+"numbers. If you do not intend to change, keep it empty."
+msgstr ""
+"حداقل %d حرف. برای امنیت بیشتر ترکیبی از حروف و اعداد باشد. اگر قصد تغییر "
+"ندارید، خالی بگذارید."
+
+#: user/register-form-handler.php:61
+#, php-format
+msgid "Minimum username name letters must be %d"
+msgstr "حداقل حروف نام کاربری باید %d باشد."
+
+#: user/register-form-handler.php:65
+msgid "Username already exist."
+msgstr "نام کاربری از قبل وجود دارد."
+
+#: user/register-form-handler.php:83
+msgid "Email already exist."
+msgstr "ایمیل از قبل وجود دارد."
+
+#: user/register-form-handler.php:129
+msgid "There is a problem with registration."
+msgstr "مشکلی در ثبت نام بوجود آمده."
+
+#: user/register-form-handler.php:166
+msgid "activation link"
+msgstr "لینک فعالسازی"
+
+#: user/register-form-handler.php:171
+msgid ""
+"Registration completed successfully. An account activation link was sent to "
+"your email."
+msgstr ""
+"ثبت نام با موفقیت انجام شد. لینک فعالسازی رمز عبور به ایمیل شما ارسال شد."
+
+#: user/register-form-handler.php:173
+msgid "Registration completed successfully."
+msgstr "ثبت نام با موفقیت انجام شد."
+
+#: user/register-form.php:52
+msgid "register"
+msgstr "ثبت نام"
+
+#: user/register-form.php:61
+msgid "Go to login form"
+msgstr "رفتن به صفحه ورود"
+
+#. Plugin Name of the plugin/theme
+msgid "Mas User Panel"
+msgstr "پنل کاربری مس"
+
+#. Description of the plugin/theme
+msgid "A frontend user panel for wordpress."
+msgstr "یک افزونه ناحیه ی کاربری سمت کاربر (فرانت اند) سایت."
+
+#. Author of the plugin/theme
+msgid "Masoud Mahdian"
+msgstr "مسعود مهدیان"
